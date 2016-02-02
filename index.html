@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>JQuery Shooting Game</title>
+    <script type="text/javascript" src="js/jquery-1.5.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.9.custom.min.js"></script>
+	<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/code.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    
+</head>
+<body>
+	<div id="container-wrapper" class="abs">
+	<div id="title" class="abs">
+            	<h1>Zombi Kill</h1>
+				 <button id ="start"></button>
+            </div>
+    <div id="stat" class="startScreen">
+	
+        <span id="hit">0 Hit</span>
+        &nbsp;
+        <span id="miss">0 Miss</span>
+        &nbsp;
+        <a id="btnstart" href="javascript://">Play &darr;</a>
+    </div>
+
+
+
+    <div id="container">
+	 <div id="nietoperz"class="abs"  > <img src="img/10.png"> </div>
+				  <div id="trumna"class="abs"  > <img src="img/2.png"> </div>
+				  <div id="nagrobek"class="abs"  > <img src="img/1.png"> </div>
+		  <div id="zamek" class="abs"  ><img src="img/8.png"> </div>
+        <div id="char1" class="character enemy1"></div>
+        <div id="char2" class="character enemy2"></div>
+        <div id="char3" class="character enemy3"></div>
+		<div id="char5" class="character enemy4"></div>
+        <div id="char4" class="character ally"></div>
+    </div>
+
+    <div id="message">
+       Game Over
+    </div>   </div>
+</body>
+</html>
